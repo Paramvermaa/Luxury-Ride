@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/static/js/main.84f638d9.js",
+    "static/media/144225-ferrari-red-superfast-png-image-high-quality.png": "/static/media/144225-ferrari-red-superfast-png-image-high-quality.c165dd57e8b4497b689a.png",
+    "static/media/krishna.png": "/static/media/krishna.443e99985364b32e648a.png",
+    "static/media/allCars.png": "/static/media/allCars.b02799b4284e7c22379e.png",
+    "static/media/lamborghini.png": "/static/media/lamborghini.a383ab878cf20dc055e2.png",
+    "static/media/HD-wallpaper-jay-shri-ram-golden-art-work-lord-god-bhakti.jpg": "/static/media/HD-wallpaper-jay-shri-ram-golden-art-work-lord-god-bhakti.a7050fc905443111775d.jpg",
+    "static/media/buggati.png": "/static/media/buggati.57d662a59e38cbbd359f.png",
+    "static/media/Porsche.png": "/static/media/Porsche.13496afe22ff20993c91.png",
+    "static/media/ferrari.png": "/static/media/ferrari.df490ec86ec856fba733.png",
+    "static/media/pagani.png": "/static/media/pagani.a78a73679dde90b46d4d.png",
+    "static/media/hero-bg.png": "/static/media/hero-bg.3b5f7a2502f0f81d1490.png",
+    "static/media/compliance.png": "/static/media/compliance.0a21cf4bf0b94324255e.png",
+    "index.html": "/index.html",
+    "main.84f638d9.js.map": "/static/js/main.84f638d9.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.84f638d9.js"
+  ]
+}
