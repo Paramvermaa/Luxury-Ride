@@ -1,5 +1,5 @@
 import React from "react";
-import Appstore from "/Users/bossv/carrental-app/src/Images/appstore.png";
+import Appstore from "../src/Images/appstore.png";
 function Download(){
     return <div className="DownloadOut">
         <div className="DownloadInner">
