@@ -1,9 +1,9 @@
 import React from "react";
-import allCars from "/Users/bossv/carrental-app/src/Images/allCars.png";
+import allCars from "../src/Images/allCars.png";
 import WhyChooseUsCard from "./WhyChooseUsCard";
-import icon5 from "/Users/bossv/carrental-app/src/Images/icon5.png";
-import icon6 from "/Users/bossv/carrental-app/src/Images/icon6.png";
-import icon7 from "/Users/bossv/carrental-app/src/Images/icon7.png";
+import icon5 from "../src/Images/icon5.png";
+import icon6 from "../src/Images/icon6.png";
+import icon7 from "../src/Images/icon7.png";
 function WhyChooseUs()
 {
     return <div className="WhyChooseUsOut">
