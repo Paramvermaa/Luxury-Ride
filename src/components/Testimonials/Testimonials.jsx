@@ -1,7 +1,7 @@
 import React from "react";
 import TestimonialCard from "./TestimonialCard";
-import ramJi from "/Users/bossv/carrental-app/src/Images/HD-wallpaper-jay-shri-ram-golden-art-work-lord-god-bhakti.jpg";
-import krishnaJi from "/Users/bossv/carrental-app/src/Images/krishna.png"
+import ramJi from "../src/Images/HD-wallpaper-jay-shri-ram-golden-art-work-lord-god-bhakti.jpg";
+import krishnaJi from "../src/Images/krishna.png"
 function Testimonials(){
     return<div className="testimonialOut">
         <div className="testimonialsDiv">
