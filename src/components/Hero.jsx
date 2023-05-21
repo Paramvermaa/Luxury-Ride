@@ -1,8 +1,8 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import bgShape from "/Users/bossv/carrental-app/src/Images/hero-bg.png";
-import heroImage from "/Users/bossv/carrental-app/src/Images/144225-ferrari-red-superfast-png-image-high-quality.png";
-import tick from "/Users/bossv/carrental-app/src/Images/compliance.png";
+import bgShape from "../src/Images/hero-bg.png";
+import heroImage from "../src/Images/144225-ferrari-red-superfast-png-image-high-quality.png";
+import tick from "../src/Images/compliance.png";
 function Hero()
 {
     return <>
