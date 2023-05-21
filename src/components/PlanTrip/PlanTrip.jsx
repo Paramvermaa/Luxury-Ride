@@ -1,8 +1,8 @@
 import React from "react";
 import PlanTripCard from "./PlanTripCard";
-import icon1 from "/Users/bossv/carrental-app/src/Images/icon1.png";
-import icon2 from "/Users/bossv/carrental-app/src/Images/icon2.png";
-import icon3 from "/Users/bossv/carrental-app/src/Images/icon3.png";
+import icon1 from "../src/Images/icon1.png";
+import icon2 from "../src/Images/icon2.png";
+import icon3 from "../src/Images/icon3.png";
 function PlanTrip()
 {
     return <div className="PlanTripOuter">
