@@ -1,8 +1,8 @@
-import Aventador from "/Users/bossv/carrental-app/src/Images/lamborghini.png"
-import Ferrari from "/Users/bossv/carrental-app/src/Images/ferrari.png"
-import Porsche from "/Users/bossv/carrental-app/src/Images/Porsche.png"
-import Huyara from "/Users/bossv/carrental-app/src/Images/pagani.png"
-import Buggati from "/Users/bossv/carrental-app/src/Images/buggati.png"
+import Aventador from "../src/Images/lamborghini.png"
+import Ferrari from "../src/Images/ferrari.png"
+import Porsche from "../src/Images/Porsche.png"
+import Huyara from "../src/Images/pagani.png"
+import Buggati from "../src/Images/buggati.png"
 export const CarData = [
   [
     {
