@@ -5,7 +5,7 @@ Overview:
 ![image1](https://github.com/Paramvermaa/Luxury-Ride/assets/112919138/6f8f19a5-ee0b-443a-b27a-0f6ac38dd244)
 TechStach: React.js Vanilla CSS html javascript
 
-<h2>full website:<a href="https://github.com/Paramvermaa/Luxury-Ride/files/11524103/Luxury.Ride.pdf">
+<h2>full website:<a href="https://luxury-ride.netlify.app/#bookCar">
   Luxury Ride</a></h2>
 
 ***Note:Website is under Development phase i have to add a few more pages***
