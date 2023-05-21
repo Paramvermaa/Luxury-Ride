@@ -1,0 +1,734 @@
+*{
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  display: block;
+  margin: 8px;
+  font-family: Poppins,sans-serif;
+  margin: 0;
+}
+.heroContentText h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2.3rem;
+  margin-top: 1rem;
+}
+.heroContentText h1 span {
+  color: #f85047;
+}
+.heroContentText h4{
+  font-family: Rubik,sans-serif;
+  font-size: 1.4rem;
+}
+.heroContentText p{
+  color: #706f7b;
+  font-family: Rubik,sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 4rem;
+}
+.heroContentText
+{
+  color: #010103;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  max-width: 40%;
+  z-index: 3;
+}
+.heroContent
+{
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  position: relative;
+  width: 85%;
+  margin: auto;
+}
+.bgShape{
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.heroImage
+{
+  margin-top: 5rem;
+  position: absolute;
+  right: 0;
+  width: 60%;
+  z-index: 2;
+}
+.heroContentBtn
+{
+  display: flex;
+  font-family: Rubik,sans-serif;
+  font-size: .8rem;
+  gap: 2rem;
+}
+.heroContentBtn a{
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 3%;
+}
+.heroContentBtnBookRide{
+  background-color: #f85047;
+  border: 2px solid #f85047;
+  box-shadow: 0 10px 15px 0 #f850474f;
+  padding: 1rem 2rem;
+  border-radius: .2rem;
+  transition: all .3s;
+}
+.heroContentBtnLearnMore{
+  background-color: #010103;
+  border: 2px solid #010103;
+  padding: 1rem 2rem;
+  border-radius: .2rem;
+  transition: all .3s;
+}
+.heroContentBtnBookRide:hover{
+  box-shadow: 0 10px 15px 0 #f850479d;
+}
+.heroContentBtnLearnMore:hover{
+  background-color: #fff;
+  color: #010103;
+  .fa-solid{
+    color: #010103;
+  }
+}
+.tickButton{
+  width: 1.5rem;
+}
+.bookCar{
+  width: 85%;
+  margin: auto;
+  align-items: center;
+  background-color: #fff;
+}
+.bookCarInner{
+  padding: 3%;
+  background-image: url("/bgImages/background-img.png");
+}
+.bookCarForm{
+  grid-gap: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+.bookCarFormDiv
+{
+  display: flex;
+  flex-direction: column;
+}
+.bookCarInner h3{
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.bookCarInner .bookCarFormDiv label{
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+.bookCarInner .bookCarFormDiv input{
+  border: 1px solid #ccd7e6;
+  color: #878585;
+  outline: none;
+  font-family: Rubik,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: .8rem;
+  border-radius: 3px;
+}
+.bookCarInner .bookCarFormDiv select{
+  border: 1px solid #ccd7e6;
+  border-radius: 3px;
+  color: #ababab;
+  font-family: Rubik,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  outline: none;
+  padding: .8rem 1rem;
+}
+.bookCarFormButton{
+  align-self: self-end;
+}
+.bookCarInner .bookCarFormButton button{
+  width: 100%;
+  border: none;
+  background-color: #f85047;
+  box-shadow: 0 10px 15px #f850474f;
+  color: #fff;
+  cursor: pointer;
+  font-family: Rubik,sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: .8rem;
+}
+.bookCarInner .bookCarFormButton button:hover{
+  box-shadow: 0 10px 15px 0 #f850479d;
+}
+.heroContentBtnBookRide .fa-solid{
+  color: #fff;
+}
+.heroContentBtnLearnMore .fa-solid{
+  color: #fff;
+}
+.PlanTripOuter{
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  margin-top: 5rem;
+}
+.PlanTripInner{
+  padding: 5%;;
+  grid-gap: 4rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+h2{
+  font-family: Poppins,sans-serif;
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+h4{
+  font-family: Rubik,sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.PlanTripCardInner p{
+  padding: 2rem;
+  color: #706f7b;
+  font-family: Rubik,sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.PlanTripCardInner h3{
+  font-size: 1.6rem;
+  margin-bottom: .4rem;
+}
+.PlanTripCardInner img{
+  width: 154px;
+}
+.selectCar{
+  width: 85%;
+  margin: auto;
+  background-color: #fff;
+  background: url("/bgImages/marks.png") no-repeat;
+}
+.SelectCarInnerDiv{
+  padding-top: 2rem;
+  max-width: 30rem;
+  margin: auto;
+  text-align: center;
+}
+.SelectCarInnerDiv p{
+  color: #706f7b;
+  font-family: Rubik,sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.SelectCarInnerDiv h2{
+  margin-top: .2rem;
+}
+.selectCarBtn{
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+}
+.selectCarBtnActive{
+  color: #fff;
+  background-color: #f85047;
+}
+.selectCarBtn button{
+  border: .4rem solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  border-radius: 5rem;
+}
+.WhyChooseUsOut{
+  background: url("/bgImages/background-img.png");
+}
+.selectCarBtn button:hover{
+  color: #fff;
+  background-color: #f85047;
+}
+.selectCarDisplay{
+  margin-top: 1rem;
+  padding: 5%;;
+  grid-gap: 4rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto;
+  padding-bottom: 0;
+}
+.showCarDiv{
+  display: flex;
+  flex-direction: row;
+}
+.showCarImage img{
+  width: 400px;
+}
+.showCarImage{
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+.showCarDetails{
+  border-right: 2px solid #706f7b;
+  border-bottom: 2px solid #706f7b;
+  border-left: 2px solid #706f7b;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  padding: 0.3rem 0.5rem;
+  text-align: center;
+}
+.showCarInfo{
+  margin: auto;
+}
+.showCarInfo h4{
+  padding: 0 1rem;
+  background-color: #f85047;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: center;
+}
+.showCarInfo h4 span{
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.showCarInfo a{
+  border-radius: 2%;
+  padding: .5rem 0;
+  margin-top: 1rem;
+  display: inline-block;
+  width: 100%;
+  background-color: #f85047;
+  box-shadow: 0 10px 15px #f850474f;
+  font-family: Rubik,sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+}
+.WhyChooseUsMain a{
+  border-radius: 2%;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+  display: inline-block;
+  width: 40%;
+  background-color: #f85047;
+  box-shadow: 0 10px 15px #f850474f;
+  font-family: Rubik,sans-serif;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+}
+.showCarInfo a:hover{
+  box-shadow: 0 10px 15px 0 #f850479d;
+}
+.WhyChooseUsMain a:hover{
+  box-shadow: 0 10px 15px 0 #f850479d;
+}
+.WhyChooseUsHead{
+  margin-top: 5rem;
+  background-color: #2d2d2d;
+  color: #fff;
+  text-align: center;
+  padding: 4rem;
+}
+.WhyChooseUsHead h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.WhyChooseUsHead h3{
+  font-size: 2rem;
+  font-weight: 400;
+}
+.WhyChooseUsHead span{
+  color: #f85047;
+}
+.WhyChooseUsDiv{
+  width: 85%;
+  margin: auto;
+}
+.WhyChooseUsText{
+  display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    width: 100%;
+}
+.WhyChooseUsMain{
+  width: 35%;
+}
+.WhyChooseUsImg img{
+  width: 100%;
+  margin-top: 5rem;
+}
+.WhyChooseUsCont{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+  max-width: 44rem;
+}
+.WhyChooseUsMain p{
+  color: #706f7b;
+}
+.WhyChooseUsCard p{
+  color: #706f7b;
+}
+.WhyChooseUsCardText{
+  margin-left: 1rem;
+}
+.WhyChooseUsCard{
+  display: flex;
+  flex-direction: row;
+}
+.testimonialOut{
+  background-color: #f8f8f8;
+}
+.testimonialsDiv{
+  width: 85%;
+  margin: auto;
+}
+.testimonialHead{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5rem;
+}
+.testimonialHead p{
+  color: #706f7b;
+}
+.testimonialHead h2{
+  margin-top: 0;
+}
+.testimonialHead h3{
+  padding-top: 5rem;
+  font-weight: 500;
+}
+.testimonialCard{
+  display: flex;
+  flex-direction: row;
+  padding: 4rem 8rem;
+  gap: 15rem;
+}
+.testimonialCarInner{
+  width: 80%;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 2rem;
+}
+.testimonialCarInner p{
+  font-size: 1.2rem;
+}
+.testimonialCarInner h2{
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+.testimonialCarInfo{
+  display: flex;
+  flex-direction: row;
+}
+.testimonialCard img{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
+.testimonialCarInfo .fa-quote-right{
+  color: #f85047;
+  font-size: 3rem;
+  margin-left: 5rem;
+}
+.FaqQuestionsAns{
+  background-color: #fff;
+  color: #706f7b;
+  font-family: Rubik,sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 4.5rem;
+}
+.openAnswer{
+  max-height: 20rem;
+  padding: 2rem 3rem;
+}
+.FaqQuestions{
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.2rem 3rem;
+  font-family: Rubik,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.openQuestion{
+  background-color: #f85047;
+  border: 2px solid #f85047;
+  box-shadow: 0 10px 15px 0 #f850474f;
+  color: #fff;
+}
+.FaqOut{
+  background: url("./bgImages/car.5e21eedbea3280311aff.png") no-repeat bottom left;
+  background-color: #fff;
+  padding: 3rem;
+}
+.Faq{
+  width: 85%;
+  margin: auto;
+  margin-bottom: 3rem;
+  padding:0 3rem;
+}
+.FaqHead{
+  width: 65%;
+  margin: auto;
+  text-align: center;
+}
+.FaqHead h2{
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+.FaqHead h3{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.FaqHead p{
+  color: #706f7b;
+}
+.FaqDiv{
+  width: 70%;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 10px 15px 0 rgba(0,0,0,.1);
+  margin-top: 5rem;
+}
+.FaqQuestionBox{
+  background-color: #fff;
+  box-shadow: 0 10px 15px 0 rgba(0,0,0,.1);
+  cursor: pointer;
+}
+.DownloadOut{
+  background: url("./bgImages/bg02.3efbc4567749d0a5671e.png");
+  background-color: #f8f8f8;
+  padding: 5rem 0;
+}
+.DownloadInner{
+  margin-left: 10rem;
+  width: 35%;
+}
+.DownloadInner p{
+  color: #706f7b;
+}
+.DownloadBtn{
+  margin-top: 2rem;
+  width: 150px;
+  cursor: pointer;
+}
+.FooterInner{
+  display: grid;
+  grid-template-columns: 1.25fr 1fr 1fr 1fr;
+}
+footer{
+  background-color: #fff;
+  padding: 5rem 0;
+}
+.FooterOut{
+  padding: 0 5rem;
+}
+ul{
+  list-style: none;
+  line-height: 2rem;
+}
+li:first-child{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+li span{
+  font-weight: 400;
+}
+li a{
+  text-decoration: none;
+  color: #010103;
+}
+.informationTag a{
+  font-weight: 500;
+  font-size: 1rem;
+}
+li input{
+  background-color: #ececec;
+  border-color: transparent;
+  border-width: 1px;
+  font-family: Rubik,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 1rem;
+  outline: none;
+  padding: 10px 60px;
+}
+li button{
+  background-color: #f85047;
+  box-shadow: 0 10px 15px #f850474f;
+  color: #fff;
+  border: 2px solid #f85047;
+  border-width: 1px;
+  font-family: Rubik,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 1rem;
+  outline: none;
+  padding: 10px 118px;
+}
+li button:hover{
+  box-shadow: 0 10px 15px 0 #f850479d;
+}
+@media (max-width:920px){
+  .heroContentText{
+    max-width: 50%;
+  }
+  .heroImage{
+    width: 50%;
+  }
+  .showCarDiv{
+    display: block;
+  }
+  .testimonialCard{
+    display: block;
+  }
+  .testimonialCarInner{
+    margin-bottom: 5rem;
+  }
+  .showCarInfo{
+    margin-top: 5rem;
+  }
+  .bookCarForm{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  .selectCarBtn{
+    margin-block-start: auto;
+  }
+  .testimonialHead{
+    padding: 3rem 0;
+    width: 90%;
+  }
+  .FaqHead{
+    width: 100%;
+  }
+  .FaqDiv{
+    width: 100%;
+  }
+  .DownloadInner{
+    width: 85%;
+    margin-left: 0;
+    margin: auto;
+  }
+  .FooterInner{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width:425px){
+.heroContentBtn a{
+  padding: 1rem;
+}
+.heroContentText
+{
+  margin-top: 1rem;
+  max-width: 100%;
+}
+.heroImage{
+  visibility: hidden;
+}
+.bgShape{
+  width: 80%;
+}
+.PlanTripInner{
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+.selectCarDisplay{
+  padding: 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 0;
+}
+.showCarDiv{
+  display: inline;
+}
+.showCarImage img{
+  width: 300px;
+  margin: 2rem 0;
+}
+.WhyChooseUsMain{
+  width:100%;
+  margin-bottom: 2rem;
+}
+.WhyChooseUsCont{
+  width: 100%;
+}
+.WhyChooseUsText{
+  display: block;
+}
+.testimonialsDiv{
+  width: 100%;
+  padding: 0;
+}
+.testimonialCard{
+  display: block;
+}
+.testimonialHead{
+  width: 90%;
+}
+.testimonialCard{
+  padding: 2rem 2rem;;
+}
+.testimonialCarInner{
+  margin-bottom: 3rem;
+}
+.testimonialCarInfo img{
+  width: 4rem;
+  height: 4rem;
+}
+.bookCarForm{
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+.Faq{
+  width: 100%;
+  padding: 0;
+}
+.FooterInner{
+  display: block;
+}
+.FooterOut{
+  padding: 0;
+  padding-right: 1rem;
+}
+}
